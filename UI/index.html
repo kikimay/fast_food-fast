@@ -1,0 +1,63 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>FAST FOODS FASTgeneralhome page</title>
+        <link rel="stylesheet" href="css/index.css">
+        <script>
+                function startTime() {
+                    var today = new Date();
+                    var h = today.getHours();
+                    var m = today.getMinutes();
+                    var s = today.getSeconds();
+                    m = checkTime(m);
+                    s = checkTime(s);
+                    document.getElementById('txt').innerHTML =
+                    h + ":" + m + ":" + s;
+                    var t = setTimeout(startTime, 500);
+                }
+                function checkTime(i) {
+                    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                    return i;
+                }
+                </script>
+                
+        
+    </head>
+    
+    
+    
+    <body onload="startTime()">
+
+            <div id="txt"></div>
+            
+        <div class="head">
+            <h1>FAST FOODS FAST</h1>
+            <img src="images/logo.png" alt="logo" height="120" width="160">
+            <p>
+            LAX RESTAURANT,HOME OF AFRICAN, DELICIOUS DISHES,SERVED FAST FIRST!!!.
+            </p>
+        </div>
+
+        <div class="links">
+            <h2>FAST FOODS FAST - GET STARTED</h2>
+            <ul type = "none">
+                <li><a class = "IN" href = "admin/SignInAdmin.html">STAFF SIGN IN </a></li> <br> 
+                <li><a class = "IN" href = "SignInUser.html">USER LOG IN </a></li>                             
+            </ul>
+        </div>
+    </body>
+
+
+    <footer>
+        <div class="copyright">
+            <p>
+                &copy;LAX restaurant
+                2018
+            </p>
+        </div>
+         
+        <div class="logo">
+            <img src="images/logo.png" alt="logo" height="60" width="90">
+        </div>
+    </footer>
+</html>
