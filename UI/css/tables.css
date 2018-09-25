@@ -5,22 +5,22 @@ table {
 }
 
 table td, table th {
-    border: 1px solid #ddd;
+    border: 1px solid  #C2B298;
     padding: 8px;
 }
 
 table tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #C2B298;
 }
 
 table tr:hover {
-    background-color: rgb(138, 248, 153);
+    background-color: #C2B298
 }
 
 table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #068144;
-    color: white;
+    background-color: #C2B298
+    color:
 }

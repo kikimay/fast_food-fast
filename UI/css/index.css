@@ -6,8 +6,8 @@
 }
 
 body{
-	background: url(../images/background\ fast\ foods\ fast.jpg);
-	background-size:     cover;
+	background: url(../images/backgroung2.jpg);
+	
   margin: 0 auto;
   text-align: center;
 }
@@ -29,6 +29,11 @@ body{
   
 }
 
+
+.content{
+  background: #85f193;
+  opacity: 0.7;
+}
 
 .IN {
   color: rgb(2, 75, 47);

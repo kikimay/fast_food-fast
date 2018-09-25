@@ -1,25 +1,12 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: sans-serif;
-	transition: 0.5s;
-}
-
-body{
-	background: url(../images/background\ fast\ foods\ fast.jpg);
-	background-size:     cover;
-	
-}
-
 .sign {
-  background: #ffffff;
-  border: 1px solid #42464b;
+  background: #C2B298;
+  border: 1px solid #C2B298;;
   border-radius: 10px;
   height: auto;
   margin: 20px auto 0;
   width: 400px;
-  position: fixed;
-  top: 12%;
+  position: absolute;
+  top: 30%;
   left: 75%;
   margin-top: -50px;
   margin-left: -100px;
@@ -27,26 +14,28 @@ body{
   
 }
 
-.heading {padding-left: 10px}
+
 
 input[type="password"], input[type="text"] {
-    border: 1px solid #a1a3a3;
+    border: 1px solid rgba(8, 8, 8, 0.3);
     border-radius: 18px;
     box-sizing: border-box;
-    color: #696969;
+    color:#C2B298;
     height: 39px;
-    margin: 31px 0 0 29px;
-    padding-left: 37px;
-    width: 350px;
+    margin: 31px 0 0 0;
+    
+    width: 300px;
   }
+
+
   input[type="password"]:focus, input[type="text"]:focus {
-    box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+    box-shadow: 0 0 4px 1px rgba(8, 8, 8, 0.3);
     outline: 0;
   }
   
 
   .links {
-    color: rgb(2, 75, 47);
+    color: rgb(16, 17, 16);
     display: block;
     float: right;
     font: 16px/1 sans-serif;
@@ -54,68 +43,46 @@ input[type="password"], input[type="text"] {
     position: relative;
     text-decoration: none;
     top: 5px;
+    text-align:center;
     transition: color .4s;
   }
-  .links:hover { color: #3300CC }
+  .links:hover { color:#C2B298;}
   
   
   input[type="submit"] {
-    width:100px;
+    width:auto;
     height:35px;
     display:block;
     font-family: sans-serif;
     font-size:16px;
     font-weight:bold;
-    color:#fff;
+    color:#C2B298;
     text-decoration:none;
     text-transform:uppercase;
     text-align:center;
-    text-shadow:1px 1px 0px #06e411;
-    padding-top:6px;
+    text-shadow:1px 1px 0px #000000;
+    padding-top:14px;
     margin: 29px 0 0 29px;
     position: relative;
     top: 76%;
     left: 50%;
     margin-top: 20px;
-    margin-left: -100px;
+    margin-left: -20px;
     cursor:pointer;
     border: none;  
-    background-color: #06e411;
-    background-image: linear-gradient(top,#3db0a6,#3111);
+    background-color: #000000;
+    background-image: linear-gradient(top,#000000,#000000);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius:15px;
-    box-shadow: inset 0px 1px 0px #06e411, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #000000, 0px 5px 0px 0px #000000, 0px 10px 5px #000000;
   }
   
   
   input[type="submit"]:active {
     top:3px;
-    box-shadow: inset 0px 1px 0px #06e411, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
+    box-shadow: inset 0px 1px 0px #000000, 0px 2px 0px 0px #000000, 0px 5px 3px #000000;
     padding-bottom: 10px;
   }
 
-
-footer {
-  position: fixed;
-  right: 2.5%;
-  bottom: 0;
-  left: 2.5%;
-  height: auto;
-  padding: 5px;
-  
- 
-  font-family: sans-serif;
-  color: #000000;
-  text-align: center;
-}
-
-footer .copyright{
-  font: 800;
-  float: right;
-}
-
-footer .logo{
-  float: left;
-}
