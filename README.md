@@ -1,2 +1,2 @@
 # fast_food-fast
-food delivery app
+This is a food delivery app for a restaurant.
